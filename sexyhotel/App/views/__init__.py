@@ -4,10 +4,7 @@ from .posts import posts
 from .owncenter import center
 
 blueprintConfig = [
-    (main, ''),
-    (user, ''),
-    (posts, ''),
-    (center, ''),
+
 ]
 # 注册蓝本
 def register_blueprint(app):

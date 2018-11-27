@@ -6,8 +6,6 @@ class Config:
     MAIL_SERVER = ''  # 邮箱服务器
     MAIL_USERNAME = ''  # 填邮箱
     MAIL_PASSWORD = ''  # 填授权码
-    # 每页显示数据的条数
-    PAGE_NUM = 5
 # 开发环境
 class DevelopmentConfig(Config):
     SQLALCHEMY_DATABASE_URI = ''
