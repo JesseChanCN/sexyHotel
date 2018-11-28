@@ -82,7 +82,7 @@ DATABASES = {
             'NAME':'hotel',
             'HOST':'localhost',
             'PORT':3306,
-            'USER':'qddxteam',
+            'USER':'root',
             'PASSWORD':'123456',
     }
 }
